@@ -1,5 +1,31 @@
+/*RESET*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/*COMMON*/
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+    background-color: brown;
+}
+
+/*Header*/
+.container{
+    position: fixed;
+    right: 0;
+}
+
+.circle{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 35px;
+    margin: 15px;
+}
+/*Fine Header*/
