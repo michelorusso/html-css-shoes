@@ -54,7 +54,9 @@ body{
 
 /*Section*/
 .product img{
-    width: 600px;
+    width: 500px;
+    display: block;
+    margin: auto;
 }
 
 .product{
