@@ -13,21 +13,30 @@ body{
 /*Header*/
 .container{
     position: fixed;
-    right: 0;
+    right: 15px;
+    top: 20px;
     z-index: 1;
 }
 
-.circle{
-    width: 35px;
-    height: 35px;
-    background-color: white;
-    border-radius: 50%;
+.products-menu {
+    list-style-type: none;
+}
+
+.products-menu .products-menu-item {
     display: inline-block;
+    margin-left: 20px;
+}
+
+.products-menu-link {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
     text-align: center;
-    vertical-align: middle;
-    line-height: 35px;
-    margin: 20px 15px;
-    font-size: 12px;
+    line-height: 50px;
+    background-color: white;
 }
 /*Fine Header*/
 
@@ -52,13 +61,16 @@ body{
 
 
 /*Section*/
+img {
+    width: 100%;
+}
 .product img{
-    width: 500px;
     display: block;
     margin: auto;
 }
 
 .product{
+    width: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
